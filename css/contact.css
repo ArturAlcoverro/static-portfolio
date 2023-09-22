@@ -1,0 +1,112 @@
+#contact {
+    padding: 40px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: background-color 0.5s;
+    overflow: hidden;
+    position: relative;
+}
+
+#contact h1 {
+    font-size: calc(4rem + 1vw);
+    font-family: 'Inter', sans-serif;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+}
+
+label {
+    color: rgba(255, 255, 255, 0.569);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.form-control {
+    border-radius: 0;
+    border: 2px rgba(255, 255, 255, 0.569) solid;
+    background-color: transparent;
+    color: white;
+    padding: .3rem .4rem .4rem .5rem;
+
+}
+
+.form-group.web {
+    display: none !important;
+}
+
+.form-control:focus {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    outline: none;
+    box-shadow: none;
+}
+
+input:-internal-autofill-selected {
+    background: transparent;
+    color: white !important;
+}
+
+textarea {
+    resize: none;
+}
+
+.send-btn {
+    float: right;
+}
+
+.rrss {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.rrss .rs {
+    width: 200px;
+    aspect-ratio: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    transition: opacity 0.2s;
+}
+
+.rrss .rs:hover {
+    opacity: 0.5;
+}
+
+
+.github {
+    background-image: url('../assets/imgs/github.svg')
+}
+
+.twitter {
+    background-image: url('../assets/imgs/twitter.svg')
+}
+
+.linkedin {
+    background-image: url('../assets/imgs/linkedin.svg')
+}
+
+.gmail {
+    background-image: url('../assets/imgs/mail.png')
+}
+
+@media (max-width: 600px) {
+
+    .rrss {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .rrss .rs {
+        width: 100%;
+    }
+}
