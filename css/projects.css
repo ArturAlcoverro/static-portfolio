@@ -31,7 +31,7 @@
 #work h1 {
     font-size: calc(4rem + 1vw);
     font-family: 'Inter', sans-serif;
-    color: white;
+    color: #ededed;
     width: 100%;
     font-weight: bold;
     text-align: center;
@@ -83,14 +83,14 @@
 
 .title {
     font-family: 'Bree Serif', serif;
-    color: white;
+    color: #ededed;
     font-size: 3vw;
     margin: 7% 0 0 5%;
 }
 
 .cleanotes .text {
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: #ededed;
     font-size: 1.5vw;
     margin: 4% 7% 0 7%;
     opacity: 0;

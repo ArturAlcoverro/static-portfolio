@@ -12,7 +12,7 @@
 #about h1 {
     font-size: calc(4rem + 1vw);
     font-family: 'Inter', sans-serif;
-    color: white;
+    color: #ededed;
     width: 100%;
     font-weight: bold;
     text-align: center;
@@ -30,5 +30,5 @@
 }
 
 #about p {
-    color: white;
+    color: #ededed;
 }

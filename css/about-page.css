@@ -1,85 +1,119 @@
+
+* {
+	font-weight: 500;
+}
+
+
 body {
-    background-color: rgb(33, 33, 33);
-    font-family: 'Inter', sans-serif;
+	background-color: black;
+	font-family: 'Inter', sans-serif;
+	max-width: 700px;
+	margin: auto;
+	padding: 0 20px;
 }
 
 h1 {
-    font-size: calc(3rem + 1vw);
-    color: white;
-    width: 100%;
-    font-weight: bold;
-    /* text-align: center; */
-    /* text-transform: uppercase; */
-    z-index: 2;
-    transition: color 0.3s;
-    margin: 20px 0 25px 0;
+	font-size: calc(2rem + 1vw);
+	color: #ededed;
+	width: 100%;
+	font-weight: bold;
+	z-index: 2;
+	transition: color 0.3s;
+	margin: 20px 0 15px 0;
 }
 
 h2 {
-    font-size: 2em;
-    color: white;
-    width: 100%;
-    font-weight: bold;
-    /* text-align: center; */
-    /* text-transform: uppercase; */
-    z-index: 2;
-    transition: color 0.3s;
-    margin: 20px 0 10px 0;
+	font-size: 2em;
+	color: #ededed;
+	width: 100%;
+	font-weight: bold;
+	z-index: 2;
+	transition: color 0.3s;
+	margin: 20px 0 10px 0;
+}
+
+.about{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.about p {
+	margin-bottom: 8px;
+	font-weight: 600;
+}
+
+.profile{
+	max-width: 250px;
 }
 
 p,
 li {
-    color: white;
-    font-size: 20px;
-}
-
-.bold p {
-    font-weight: bold;
-}
-
-.profile {
-    width: 100%;
-    float: right
+	color: #ededed;
+	font-size: 20px;
 }
 
 ul {
-    display: inline-block;
-    list-style: none;
-    margin: auto
+	display: inline-block;
+	list-style: none;
+	margin: auto
 }
 
-ul li::before {
-    content: "\2022";
-    color: white;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
+ul {
+	padding: 10px;
 }
 
+ul li{
+	margin-bottom: 1.5rem;
+}
 
-.back {
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    min-height: 100px;
+li p.years {
+	margin-bottom: .25rem;
+	font-size: 14px !important;
+	color: #888
+}
+
+li p.title{
+	font-weight: 600;
+	color: #ededed;
+	font-size: 20px;
+	margin-bottom: 0rem;
+}
+
+li p.location {
+	font-weight: 600;
+	color: #888;
+	font-size: 20px;
+	margin-bottom: .5rem;
 
 }
 
-.back img {
-    height: 50px;
+li p.description {
+	font-size: 14px;
+	font-weight: 400;
+	color: #888;
+	margin-bottom: 2rem;
 }
+
+.skills li p {
+	color: #888;
+	font-weight: 600;
+}
+
+.skills li span{
+	color: #ededed;
+	font-weight: 600;
+}
+
 
 @media (max-width: 450px) {
-    h1 {
-        font-size: 15vw;
-    }
+	h1 {
+		font-size: 15vw;
+	}
 }
 
-@media (max-width: 576px){
-    h1 {
-       margin-left: 15px;
-    }
+@media (max-width: 576px) {
+	h1 {
+		margin-left: 15px;
+	}
 }

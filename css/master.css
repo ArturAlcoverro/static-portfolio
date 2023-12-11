@@ -126,7 +126,7 @@ button:focus {
 
 .contrast {
     mix-blend-mode: difference !important;
-    color: white !important;
+    color: #ededed !important;
 }
 
 #lang {
@@ -156,7 +156,7 @@ button:focus {
     left: 13px;
     overflow: hidden;
     background: rgb(17, 17, 17);
-    color: white;
+    color: #ededed;
     max-height: 300px;
     max-width: 300px;
     transition: all 0.4s;
@@ -177,7 +177,7 @@ button:focus {
 }
 
 #lang-menu li a.active {
-    color: white;
+    color: #ededed;
 }
 
 #lang-menu li a {
@@ -185,7 +185,7 @@ button:focus {
 }
 
 #lang-menu li a:hover {
-    color: white;
+    color: #ededed;
     text-decoration: none;
 }
 

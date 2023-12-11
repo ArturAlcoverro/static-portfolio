@@ -12,7 +12,7 @@
 #contact h1 {
     font-size: calc(4rem + 1vw);
     font-family: 'Inter', sans-serif;
-    color: white;
+    color: #ededed;
     width: 100%;
     font-weight: bold;
     text-align: center;
@@ -29,7 +29,7 @@ label {
     border-radius: 0;
     border: 2px rgba(255, 255, 255, 0.569) solid;
     background-color: transparent;
-    color: white;
+    color: #ededed;
     padding: .3rem .4rem .4rem .5rem;
 
 }
@@ -39,16 +39,16 @@ label {
 }
 
 .form-control:focus {
-    color: white;
+    color: #ededed;
     background-color: transparent;
-    border-color: white;
+    border-color: #ededed;
     outline: none;
     box-shadow: none;
 }
 
 input:-internal-autofill-selected {
     background: transparent;
-    color: white !important;
+    color: #ededed !important;
 }
 
 textarea {
@@ -61,7 +61,7 @@ textarea {
 
 .rrss {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
     align-items: center;
     align-content: center;

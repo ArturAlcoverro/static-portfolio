@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sobre mi</title>
+    <title>About me</title>
+
     <link rel="shortcut icon" type="image/png" href="./assets/imgs/favicon.png">
     <link rel="stylesheet" href="./css/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="./css/master.css">
@@ -13,73 +15,141 @@
 
     <script src="./js/libraries/jquery-3.3.1.min.js"></script>
     <script src="./js/index.min.js"></script>
-    <script src="./js/libraries/popper.min.js"></script>
-    <script src="./js/libraries/bootstrap.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
 </head>
+
 <body>
     <div class="container">
-        <div class="row" data-aos="fade">
-            <h1>Datos personales</h1>
-            <div class="col-12 col-md-3 mb-3">
+        <div data-aos="fade">
+            <h1>About me</h1>
+            <div class="about">
+                <div>
                     <img class="profile" src="./assets/imgs/profile.JPG" alt="profile-img">
                 </div>
-            <div class="col-12 col-lg-6">
-                <p>Artur Alcoverro Pastó</p>
-                <p>21/12/1998</p>
-                <p>Barcelona</p>
-                <p>artur.bcn1998@gmail.com</p>
+                <div>
+                    <p>Artur Alcoverro Pastó</p>
+                    <p>From December 21, 1998</p>
+                    <p>Barcelona</p>
+                    <p>artur.bcn1998@gmail.com</p>
+                </div>
             </div>
 
         </div>
-        <div class="row mt-5" data-aos="fade">
-            <h1>Formación acadèmica</h1>
-            <div class="col-12 ul">
+        <div data-aos="fade">
+            <h2>Experience</h2>
+            <div>
                 <ul>
                     <li>
-                        <b>Batxillerat tecnològic:</b> Col·legi Sta. Caterina de Siena - Dominiques d'Horta                    </li>
+                        <p class="years">2022 - Present (1 years)</p>
+                        <p class="title">
+                            Junior Fullstack Developer
+                        </p>
+                        <p class="location">
+                            Knowify
+                        </p>
+                    </li>
                     <li>
-                        <b>CFGS en Desenvolupament d’Aplicacions Multiplataforma:</b> Centre d'Estudis Politècnics                    </li>
+                        <p class="years">2021 - 2022 (1 years)</p>
+                        <p class="title">
+                            Software Developer
+                        </p>
+                        <p class="location">
+                            La Salle BCN
+                        </p>
+                        <p class="description">
+                            HOlistic online Teaching SUPport Project funded by ERASMUS+ of the European Union for the development of software to measure the engagement (involvement, participation and motivation) of students in a videoconference and provide feedback to teachers through the use of Machine Learning and Computer Vision.                        
+                        </p>
+                    </li>
                     <li>
-                        <b>CFGS en Desenvolupament d’Aplicacions Web:</b> Centre d'Estudis Politècnics                    </li>
-                    <li>
-                        <b>Grau en Tècniques d’Aplicacions de Software</b> La Salle Universitat Ramon Llull (Actualment estudiant)                    </li>
+                        <p class="years">2018 - 2020 (2 years)</p>
+                        <p class="title">
+                            Junior Software Developer
+                        </p>
+                        <p class="location">
+                            Telematel
+                        </p>
+                        <p class="description">
+                            In charge of maintaining, testing and adding new functionalities in an ERP software specialized in the construction industry.
+                        </p>
+                    </li>
                 </ul>
             </div>
         </div>
-        <div class="row mt-5" data-aos="fade">
-                <h1>Experience</h1>
-                <div class="col-12 ul">
-                    <ul>
+        <div data-aos="fade">
+            <h2>Education</h2>
+            <div>
+                <ul class="education">
+                    <li>
+                        <p class="years">2023</p>
+                        <p class="title">
+                            Master degree in Software Development and Architecture
+                        </p>
+                        <p class="location">
+                            La Salle Universitat Ramon Llull
+                        </p>
+                    </li>
+                    <li>
+                        <p class="years">2019 - 2022</p>
+                        <p class="title">
+                            Degree in Software application tecniques
+                        </p>
+                        <p class="location">
+                            La Salle Universitat Ramon Llull
+                        </p>
+                    </li>
+                    <li>
+                        <p class="years">2020 - 2022</p>
+                        <p class="title">
+                            Higher degree of multiplatform development
+                        </p>
+                        <p class="location">
+                            Centre d'Estudis Politècnics
+                        </p>
+                    </li>
+                    <li>
+                        <p class="years">2020 - 2022</p>
+                        <p class="title">
+                            Higher degree of web development
+                        </p>
+                        <p class="location">
+                            Centre d'Estudis Politècnics
+                        </p>
+                    </li>
+                    <li>
+                        <p class="years">2020 - 2022</p>
+                        <p class="title">
+                            Batxillerat tecnològic
+                        </p>
+                        <p class="location">
+                            Col·legi Santa Caterina de Siena - Dominiques d'Horta
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div data-aos="fade">
+            <h2>Skills</h2>
+            <div>
+                <div data-aos="fade">
+                    <ul class="skills">
                         <li>
-                            <b>2 years as junior developer:</b>  Telematel                        </li>
+                           <span>Languages:</span> <p>TypeScript, JavaScript, HTML, CSS, Python, Java, C, Dart.</p>
+                        </li>
+                        <li>
+                            <span>Tecnologies:</span> <p>React, Next.js, Tailwind, React Query, Sass, Flutter, Android SDK.                        </p>
+                        </li>
+                        <li>
+                            <span>Databases:</span> <p>SQL, MongoDB.</p>
+                        </li>
+                        <li>
+                            <span>Other tools:</span> <p>Docker, AWS, Postman, Figma. </p>
+                        </li>
                     </ul>
                 </div>
-        </div>
-        <div class="row mt-5" data-aos="fade">
-                <h1>Skills</h1>
-                <div class="col-12 ul">
-                    <div data-aos="fade">
-                        <ul>
-                            <li>
-                                <b>Programming language:</b> C, C#, Java, Bash, JavaScript, PHP, Progress ABL, C++ (Arduino).                            </li>
-                            <li>
-                                <b>Frameworks:</b> Laravel, Android Studio, Arduino.                            </li>
-                            <li>
-                                <b>Web libraries:</b> Bootstrap, Jquery, Datatables.                            </li>
-                            <li>
-                                <b>Databases:</b> SQL, MongoDB.                            </li>
-                            <li>
-                                <b>Other Languages:</b> JSON, XML, HTML, CSS, SASS, XSLT.                            </li>
-                        </ul>
-                    </div>
-                </div>
+            </div>
         </div>
     </div>
-    <section class="back">
-        <a class="no-contrast" href="./#about"><img src="./assets/imgs/back.svg" alt="back-btn"></a>
-    </section>
 </body>
 <script>
     AOS.init({
@@ -87,4 +157,5 @@
         duration: 1000,
     });
 </script>
+
 </html>
